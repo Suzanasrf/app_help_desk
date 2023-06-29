@@ -34,7 +34,7 @@ echo 'O array possui  '   .count($registros) . '  registros';
 //    $idx++;
 // }
 
-for($idx = 0; $idx < count($registros); $idx++;){ 
+for($idx = 0; $idx < count($registros); $idx++){ 
     echo '<h1>' . $registros[$idx]['titulo'] . '</h1>';
   echo '<p>'. $registros[$idx]['conteudo'] .'</p>';
 
